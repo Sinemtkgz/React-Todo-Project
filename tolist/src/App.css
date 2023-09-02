@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300;1,400&display=swap');
+
+* {
+  font-family: 'Rubik', sans-serif;
+  box-sizing: border-box;
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .task-create {
+  width: 450px;
+} */
+
+.task-form {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 500;
+}
+
+.todo-input {
+  padding: 10px;
+  border: 1px solid #89a356;
+  width: 300px;
+}
+
+.button-add {
+  background-color: #89a356;
+  border: 1px solid #89a356;
+  padding: 10px;
+  color: white;
+}
+
+.button-add:hover {
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: #5c6942;
+  border: 1px solid #5c6942;
+}
+
+.task-show {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #89a356;
+  width: 375px;
+  border-radius: 10px;
+  color: white;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.show-button button:first-child {
+  margin-right: 7px;
+}
+
+.show-button button {
+  background-color: white;
+  color: #89a356;
+  border: 1px solid white;
+  border-radius: 10px 100px / 120px 100px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.show-button button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
